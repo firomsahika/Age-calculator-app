@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,300;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+      <div class="titletext">
+        <p class="day-title">DAY</p>
+        <p class="month-title">MONTH</p>
+        <p class="year-title">YEAR</p>
+      </div>
+       
+       <div class="inputs">
+          <div >
+            <input class="day-input" type="number" placeholder="DD">
+          </div>
+          <div >
+            <input class="month-input" type="number" placeholder="MM">
+          </div>
+          <div>
+            <input class="year-input" type="number" placeholder="YY">
+          </div> 
+       </div>
+
+      <div class="error-message">
+          <p class="day-error"></p>
+          <p class="month-error"></p>
+          <p class="year-error"></p>
+      </div>
+       
+    </header>
+    <hr >
+    <div class="img">
+      <!-- <img src="assets/images/favicon-32x32.png" alt=""> -->
+      <svg class="svg-btn" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+    </div >
+        <div class="detail">
+            <h1><span class="year-span">--</span>years</h1>
+            <h1><span class="month-span" >--</span>months</h1>
+            <h1><span class="day-span" >--</span>days</h1>
+          
+      </div>
+  </div>
+    
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Firomsa Hika</a>.
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
